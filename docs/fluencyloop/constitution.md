@@ -48,3 +48,10 @@ localized as the codebase evolves.
 **Rule:** Maintain unit-test code coverage of at least 65%.
 
 **Why:** Prevents the core behaviour from becoming unverified as the server evolves.
+
+### §4 — Resilient local inspection
+
+**Rule:** Preserve valid local evidence and report damaged input as diagnostics; do not fail the
+whole inspection because one local record is malformed.
+
+**Why:** Prevents one damaged JSONL line from hiding the remaining repository evidence.

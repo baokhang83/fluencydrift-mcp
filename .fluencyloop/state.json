@@ -1,0 +1,11 @@
+{
+  "schema_version": "1",
+  "feature": "1-establish-the-java-21-maven-foundation-and-implement-resil",
+  "branch": "feature/1-establish-the-java-21-maven-foundation-and-implement-resil",
+  "stage": "build",
+  "last_session": "001-implement-the-java-21-maven-foundation-and-resilient-res",
+  "base_ref": "main",
+  "feature_dir": "",
+  "plan": "rewrite-fluencydrift-mcp-in-java",
+  "updated": "2026-08-15"
+}
