@@ -1,9 +1,9 @@
 {
   "schema_version": "1",
-  "feature": "2-add-root-confined-repository-observation-and-deterministic",
-  "branch": "feature/2-add-root-confined-repository-observation-and-deterministic",
+  "feature": "3-expose-the-three-stdio-mcp-tools-and-ship-the-executable-w",
+  "branch": "feature/3-expose-the-three-stdio-mcp-tools-and-ship-the-executable-w",
   "stage": "build",
-  "last_session": "001-observe-root-confined-repository-files-and-analyze-deter",
+  "last_session": "001-expose-the-fixed-stdio-mcp-contract-and-verify-the-runna",
   "base_ref": "main",
   "feature_dir": "",
   "plan": "rewrite-fluencydrift-mcp-in-java",

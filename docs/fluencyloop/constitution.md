@@ -62,3 +62,10 @@ whole inspection because one local record is malformed.
 root, and exclude Git metadata.
 
 **Why:** Prevents repository inspection from following a path outside the requested boundary.
+
+### §6 — SDK-owned protocol handling
+
+**Rule:** Use the official MCP SDK for protocol framing, transport behavior, and tool-schema
+validation; keep application code focused on product operations.
+
+**Why:** Prevents local server code from duplicating or drifting from the MCP protocol.
