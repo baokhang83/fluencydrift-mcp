@@ -55,3 +55,10 @@ localized as the codebase evolves.
 whole inspection because one local record is malformed.
 
 **Why:** Prevents one damaged JSONL line from hiding the remaining repository evidence.
+
+### §5 — Root-confined repository inspection
+
+**Rule:** Observe only regular, non-symbolic-link files below the supplied canonical repository
+root, and exclude Git metadata.
+
+**Why:** Prevents repository inspection from following a path outside the requested boundary.
