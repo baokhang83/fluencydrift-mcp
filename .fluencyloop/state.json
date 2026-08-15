@@ -1,9 +1,9 @@
 {
   "schema_version": "1",
-  "feature": "1-establish-the-java-21-maven-foundation-and-implement-resil",
-  "branch": "feature/1-establish-the-java-21-maven-foundation-and-implement-resil",
+  "feature": "2-add-root-confined-repository-observation-and-deterministic",
+  "branch": "feature/2-add-root-confined-repository-observation-and-deterministic",
   "stage": "build",
-  "last_session": "001-implement-the-java-21-maven-foundation-and-resilient-res",
+  "last_session": "001-observe-root-confined-repository-files-and-analyze-deter",
   "base_ref": "main",
   "feature_dir": "",
   "plan": "rewrite-fluencydrift-mcp-in-java",
